@@ -148,7 +148,7 @@ public class ClockView extends View {
                 super.onAnimationEnd(animation);
                 if (animationSecondRepeatCount < 4) {
                     animatorSecond.cancel();
-                    animatorSecond.setStartDelay(1000);
+                    animatorSecond.setStartDelay(500);
                     animatorSecond.start();
                 } else {
                     isStart = false;
